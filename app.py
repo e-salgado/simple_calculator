@@ -39,7 +39,10 @@ while True:
         num1 = int(input("Enter first number: "))
         num2 = int(input("Enter second number: "))
         print(num1, " / ", num2, " = ", div(num1, num2))
-    else:
-        print("Invalid Choice")
-        break 
-    
+
+    # check if user wants another calculation
+    next_calculation = input("Would you like another calculation? (Y/N) ")
+    if next_calculation == "N" or "n":
+        break
+else:
+    print("Invalid Choice")
