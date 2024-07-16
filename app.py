@@ -31,3 +31,15 @@ while True:
         num1 = int(input("Enter first number: "))
         num2 = int(input("Enter second number: "))
         print(num1, " - ", num2, " = ", sub(num1, num2))
+    elif choice == "3":
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+        print(num1, " * ", num2, " = ", mult(num1, num2))
+    elif choice == "4":
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+        print(num1, " / ", num2, " = ", div(num1, num2))
+    else:
+        print("Invalid Choice")
+        break 
+    
